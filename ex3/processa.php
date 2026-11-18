@@ -11,7 +11,6 @@ if (!$nome || !$tipoBike || !$quantidade) {
     exit('Dados incorretos!');
 }
 
-// Corrigido: Nome da classe ajustado para LocacaoBicicleta
 $produto1 = new LocacaoBicicleta(
     $nome,
     (string) $tipoBike,
